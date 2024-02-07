@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x:hidden ;
+    
+}
+.background{
+    width: 1320px;
+    height: 600px;
+}
+
+.logo{
+
+  font-size :3rem;
+  font-weight: bolder;
+  color: rgba(248, 123, 6, 0.973);
+} 
+#navbar{
+    height: 100px;
+/*     background-size: cover;
+ */    
+ background-color: rgb(243, 236, 223);
+   justify-content: space-between;
+ align-items: center;
+   width:120%; 
+  
+   
+}
+
+.listitem{
+    display: inline-block;/* using in child tag */
+    list-style: none; /* to hide circle from list items  */
+    
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+.links{
+    color: rgba(248, 123, 6, 0.973);
+    text-decoration: none;
+
+    font-weight:lighter;
+    font-size: xx-large;
+}
+.links:hover{
+    text-decoration: none;
+    color: rgb(17, 15, 15);
+
+    
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    margin-bottom: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size :15px;
+    font-weight: bolder;
+border-radius: 5%;
+
+}
+.card-title{
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+}
+
+footer {
+ 
+    bottom: 0;
+    width: 100%;
+}
+.head{
+    font-size: 2rem;
+    color: rgb(253, 76, 6);
+    font-weight: bolder;
+
+}
+.button{
+    color: aliceblue;
+    background-color: rgb(11, 89, 233);
+}
+
+
+.abouthead{
+    color: rgb(253, 76, 6);
+    margin-left: 150px;
+    font-size:2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
+.menuhead{
+    color: rgb(253, 76, 6);
+    margin-left: 150px;
+    font-size:2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
+.feedbackhead{
+    color: rgb(253, 76, 6);
+    margin-left: 150px;
+    font-size:2rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    margin-top: 10px;
+
+
+}
+#feedback{
+    margin: left 250px;;
+}
+
+#about{
+    margin-top:50px;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+.aboutimg{
+    margin-top: 15px;
+    margin-left:10px;
+    width: 600px;
+    height:500px;
+    border-radius: 4%;
+}
+#TextInput{
+    margin-left: 100px;
+}
+
+.form{
+    background-color: rgb(7, 7, 7);
+    font-family:'Courier New', Courier, monospace;
+
+}
+.form-select{
+    margin-left: 100px;
+   
+}
+.form-label{
+    font-weight: bolder;
+    margin-left: 110px;
+color: aliceblue;
+
+
+}
+.book{
+    text-decoration: none;
+    color: #110e0e;
+    font-size: small;
+    font-weight:bolder;
+}
+.hover-button {
+    
+    background-color: #3498db; /* Set the default background color */
+    color: #110e0e; /* Set the default text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition for the background color */
+ 
+}
+.hover-button:hover {
+    background-color: #f5870a; /* Change the background color of button on hover */
+}
+
+.icon , .uparrow{
+    width: 40px;
+    height: 40px;
+  border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
+    
+html{
+    scroll-behavior: smooth;
+
+} 
+.iconset{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 3rem;
+  
+ }
+ 
+ .icon:hover i{
+    color: rgb(3, 3, 3);
+    animation:shake 1s;
+}
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
+.icon i {
+    color: rgb(253, 76, 6);
+
+    font-size: 30px;}
